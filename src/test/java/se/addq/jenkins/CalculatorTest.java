@@ -14,4 +14,9 @@ public class CalculatorTest {
         int resultFromAdd = Calculator.addBroken(2, 5);
         Assert.assertEquals("",7, resultFromAdd);
     }
+
+    @Test public void testBurr(){
+        String resultFromBurr = Calculator.burr(6);
+        Assert.assertEquals("","burr",resultFromBurr);
+    }
 }

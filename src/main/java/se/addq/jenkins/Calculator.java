@@ -10,4 +10,10 @@ public class Calculator {
         return a * b;
     }
 
+    public static String burr(int a) {
+        if (a % 3 == 0) {
+            return "burr";
+        } else
+            return String.valueOf(a);
+    }
 }
