@@ -7,7 +7,7 @@ public class Calculator {
     }
 
     public static int addBroken(int a, int b) {
-        return a * b;
+        return a - b;
     }
 
     public static String burr(int a) {
