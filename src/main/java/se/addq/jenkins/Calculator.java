@@ -12,7 +12,7 @@ public class Calculator {
 
     public static String burr(int a) {
         if (a % 3 == 0) {
-            return "burr";
+            return "burr_edit";
         } else
             return String.valueOf(a);
     }
